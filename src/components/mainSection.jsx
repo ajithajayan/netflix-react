@@ -6,9 +6,10 @@ import { HorrorMovies,ComedyMovies,originals,trending,ActionMovies,RomanceMovies
 function mainSection() {
   return (
     <section className="main-container" >
-            
+      
+      <Card url={trending} title="Trending Movies"/>      
       <Card url={originals} title="Orginals"/> 
-      <Card url={trending} title="Trending Movies"/> 
+     
       <Card url={ActionMovies} title="Action-Movies"/> 
       <Card url={ComedyMovies} title="Comedy"/> 
 
